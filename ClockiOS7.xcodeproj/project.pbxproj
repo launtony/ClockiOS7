@@ -112,6 +112,8 @@
 		EA2A2D35193150090009F460 /* ClockiOS7 */ = {
 			isa = PBXGroup;
 			children = (
+				EA2A2D661931505D0009F460 /* Menu */,
+				EA2A2D651931504E0009F460 /* Settings */,
 				EA2A2D3E193150090009F460 /* ClockAppDelegate.h */,
 				EA2A2D3F193150090009F460 /* ClockAppDelegate.m */,
 				EA2A2D41193150090009F460 /* Main.storyboard */,
@@ -150,6 +152,20 @@
 				EA2A2D57193150090009F460 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2A2D651931504E0009F460 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		EA2A2D661931505D0009F460 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

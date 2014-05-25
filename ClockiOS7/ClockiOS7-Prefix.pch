@@ -13,4 +13,15 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "NSDate+DateTools.h"
+    #import <QuartzCore/QuartzCore.h>
+    #import "UIViewAdditions.h"
+    #import "PHAirViewController.h"
 #endif
+
+#define MODigitViewName @"DigitView"
+#define MOSettingViewName @"SettingViewName"
+
+#define KeepAliveTime 300.0f
+
+#define IS_IPHONE ( [ [ [ UIDevice currentDevice ] model ] hasPrefix: @"iPhone" ] )

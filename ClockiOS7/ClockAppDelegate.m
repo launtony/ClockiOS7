@@ -8,11 +8,25 @@
 
 #import "ClockAppDelegate.h"
 
+@interface ClockAppDelegate ()
+
+@property (nonatomic) CGFloat brightness;
+
+
+
+@end
+
 @implementation ClockAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // disable the idle timer
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
+    
+    //[self initAppReview];
+    
     return YES;
 }
 							

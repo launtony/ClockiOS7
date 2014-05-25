@@ -1,1116 +1,673 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>64C457DEED70484DADB60AB4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8DC1435E5FE2447B823515B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A33D22EF7EA6498FB7CE782E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64C457DEED70484DADB60AB4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C5AFA1B9297E49C09454D1D0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>CA785651899D48ACA075DECB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>EA2A2D23193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D35193150090009F460</string>
-				<string>EA2A2D54193150090009F460</string>
-				<string>EA2A2D2E193150090009F460</string>
-				<string>EA2A2D2D193150090009F460</string>
-				<string>8DC1435E5FE2447B823515B2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D24193150090009F460</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>Clock</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Tony LAUNAY</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>EA2A2D4C193150090009F460</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>EA2A2D2B193150090009F460</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>EA2A2D27193150090009F460</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>EA2A2D23193150090009F460</string>
-			<key>productRefGroup</key>
-			<string>EA2A2D2D193150090009F460</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>EA2A2D2B193150090009F460</string>
-				<string>EA2A2D4C193150090009F460</string>
-			</array>
-		</dict>
-		<key>EA2A2D27193150090009F460</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EA2A2D5C193150090009F460</string>
-				<string>EA2A2D5D193150090009F460</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EA2A2D28193150090009F460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EA2A2D46193150090009F460</string>
-				<string>EA2A2D3C193150090009F460</string>
-				<string>EA2A2D40193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA2A2D29193150090009F460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EA2A2D32193150090009F460</string>
-				<string>EA2A2D34193150090009F460</string>
-				<string>EA2A2D30193150090009F460</string>
-				<string>A33D22EF7EA6498FB7CE782E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA2A2D2A193150090009F460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EA2A2D48193150090009F460</string>
-				<string>EA2A2D3A193150090009F460</string>
-				<string>EA2A2D43193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA2A2D2B193150090009F460</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EA2A2D5E193150090009F460</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C5AFA1B9297E49C09454D1D0</string>
-				<string>EA2A2D28193150090009F460</string>
-				<string>EA2A2D29193150090009F460</string>
-				<string>EA2A2D2A193150090009F460</string>
-				<string>CA785651899D48ACA075DECB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ClockiOS7</string>
-			<key>productName</key>
-			<string>ClockiOS7</string>
-			<key>productReference</key>
-			<string>EA2A2D2C193150090009F460</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>EA2A2D2C193150090009F460</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ClockiOS7.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EA2A2D2D193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D2C193150090009F460</string>
-				<string>EA2A2D4D193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D2E193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D2F193150090009F460</string>
-				<string>EA2A2D31193150090009F460</string>
-				<string>EA2A2D33193150090009F460</string>
-				<string>EA2A2D4E193150090009F460</string>
-				<string>64C457DEED70484DADB60AB4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D2F193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EA2A2D30193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D2F193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D31193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EA2A2D32193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D31193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D33193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EA2A2D34193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D33193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D35193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D671931517C0009F460</string>
-				<string>EA2A2D661931505D0009F460</string>
-				<string>EA2A2D651931504E0009F460</string>
-				<string>EA2A2D3E193150090009F460</string>
-				<string>EA2A2D3F193150090009F460</string>
-				<string>EA2A2D41193150090009F460</string>
-				<string>EA2A2D44193150090009F460</string>
-				<string>EA2A2D45193150090009F460</string>
-				<string>EA2A2D47193150090009F460</string>
-				<string>EA2A2D36193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ClockiOS7</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D36193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D37193150090009F460</string>
-				<string>EA2A2D38193150090009F460</string>
-				<string>EA2A2D3B193150090009F460</string>
-				<string>EA2A2D3D193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D37193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>ClockiOS7-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D38193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D39193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D39193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D3A193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D38193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D3B193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D3C193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D3B193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D3D193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ClockiOS7-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D3E193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ClockAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D3F193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ClockAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D40193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D3F193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D41193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D42193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D42193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D43193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D41193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D44193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ClockViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D45193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ClockViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D46193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D45193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D47193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D48193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D47193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D49193150090009F460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EA2A2D5B193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA2A2D4A193150090009F460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EA2A2D4F193150090009F460</string>
-				<string>EA2A2D51193150090009F460</string>
-				<string>EA2A2D50193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA2A2D4B193150090009F460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EA2A2D59193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA2A2D4C193150090009F460</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EA2A2D61193150090009F460</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EA2A2D49193150090009F460</string>
-				<string>EA2A2D4A193150090009F460</string>
-				<string>EA2A2D4B193150090009F460</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>EA2A2D53193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ClockiOS7Tests</string>
-			<key>productName</key>
-			<string>ClockiOS7Tests</string>
-			<key>productReference</key>
-			<string>EA2A2D4D193150090009F460</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>EA2A2D4D193150090009F460</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ClockiOS7Tests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EA2A2D4E193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>EA2A2D4F193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D4E193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D50193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D2F193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D51193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D33193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D52193150090009F460</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>EA2A2D24193150090009F460</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>EA2A2D2B193150090009F460</string>
-			<key>remoteInfo</key>
-			<string>ClockiOS7</string>
-		</dict>
-		<key>EA2A2D53193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>EA2A2D2B193150090009F460</string>
-			<key>targetProxy</key>
-			<string>EA2A2D52193150090009F460</string>
-		</dict>
-		<key>EA2A2D54193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D5A193150090009F460</string>
-				<string>EA2A2D55193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ClockiOS7Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D55193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D56193150090009F460</string>
-				<string>EA2A2D57193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D56193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>ClockiOS7Tests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D57193150090009F460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EA2A2D58193150090009F460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D58193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D59193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D57193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D5A193150090009F460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ClockiOS7Tests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D5B193150090009F460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA2A2D5A193150090009F460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA2A2D5C193150090009F460</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EA2A2D5D193150090009F460</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EA2A2D5E193150090009F460</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EA2A2D5F193150090009F460</string>
-				<string>EA2A2D60193150090009F460</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EA2A2D5F193150090009F460</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8DC1435E5FE2447B823515B2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ClockiOS7/ClockiOS7-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ClockiOS7/ClockiOS7-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EA2A2D60193150090009F460</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8DC1435E5FE2447B823515B2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ClockiOS7/ClockiOS7-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ClockiOS7/ClockiOS7-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EA2A2D61193150090009F460</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EA2A2D62193150090009F460</string>
-				<string>EA2A2D63193150090009F460</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EA2A2D62193150090009F460</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ClockiOS7.app/ClockiOS7</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ClockiOS7/ClockiOS7-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ClockiOS7Tests/ClockiOS7Tests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EA2A2D63193150090009F460</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ClockiOS7.app/ClockiOS7</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ClockiOS7/ClockiOS7-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ClockiOS7Tests/ClockiOS7Tests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EA2A2D651931504E0009F460</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Settings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D661931505D0009F460</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Menu</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA2A2D671931517C0009F460</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Clock</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>EA2A2D24193150090009F460</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33D22EF7EA6498FB7CE782E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C457DEED70484DADB60AB4 /* libPods.a */; };
+		EA2A2D30193150090009F460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D2F193150090009F460 /* Foundation.framework */; };
+		EA2A2D32193150090009F460 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D31193150090009F460 /* CoreGraphics.framework */; };
+		EA2A2D34193150090009F460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D33193150090009F460 /* UIKit.framework */; };
+		EA2A2D3A193150090009F460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA2A2D38193150090009F460 /* InfoPlist.strings */; };
+		EA2A2D3C193150090009F460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A2D3B193150090009F460 /* main.m */; };
+		EA2A2D40193150090009F460 /* ClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A2D3F193150090009F460 /* ClockAppDelegate.m */; };
+		EA2A2D43193150090009F460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2A2D41193150090009F460 /* Main.storyboard */; };
+		EA2A2D46193150090009F460 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A2D45193150090009F460 /* ClockViewController.m */; };
+		EA2A2D48193150090009F460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2A2D47193150090009F460 /* Images.xcassets */; };
+		EA2A2D4F193150090009F460 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D4E193150090009F460 /* XCTest.framework */; };
+		EA2A2D50193150090009F460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D2F193150090009F460 /* Foundation.framework */; };
+		EA2A2D51193150090009F460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D33193150090009F460 /* UIKit.framework */; };
+		EA2A2D59193150090009F460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA2A2D57193150090009F460 /* InfoPlist.strings */; };
+		EA2A2D5B193150090009F460 /* ClockiOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A2D5A193150090009F460 /* ClockiOS7Tests.m */; };
+		EA412DF3193155EF00AEC5F0 /* MOBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DE3193155EF00AEC5F0 /* MOBackgroundColor.m */; };
+		EA412DF4193155EF00AEC5F0 /* MONavigationSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DE5193155EF00AEC5F0 /* MONavigationSettingViewController.m */; };
+		EA412DF5193155EF00AEC5F0 /* MOSettingColorThemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DE7193155EF00AEC5F0 /* MOSettingColorThemeCell.m */; };
+		EA412DF6193155EF00AEC5F0 /* MOSettingColorThemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA412DE8193155EF00AEC5F0 /* MOSettingColorThemeCell.xib */; };
+		EA412DF7193155EF00AEC5F0 /* MOSettingMakerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DEA193155EF00AEC5F0 /* MOSettingMakerTableViewCell.m */; };
+		EA412DF8193155EF00AEC5F0 /* MOSettingMakerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA412DEB193155EF00AEC5F0 /* MOSettingMakerTableViewCell.xib */; };
+		EA412DF9193155EF00AEC5F0 /* MOSettingVersionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DED193155EF00AEC5F0 /* MOSettingVersionTableViewCell.m */; };
+		EA412DFA193155EF00AEC5F0 /* MOSettingVersionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA412DEE193155EF00AEC5F0 /* MOSettingVersionTableViewCell.xib */; };
+		EA412DFB193155EF00AEC5F0 /* MOSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DF0193155EF00AEC5F0 /* MOSettingViewController.m */; };
+		EA412E091931571200AEC5F0 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E031931571200AEC5F0 /* UIViewAdditions.m */; };
+		EA412E0A1931571200AEC5F0 /* PHAirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E061931571200AEC5F0 /* PHAirViewController.m */; };
+		EA412E0B1931571200AEC5F0 /* PHSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E081931571200AEC5F0 /* PHSessionView.m */; };
+		EA412E0D193159C700AEC5F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA412E0C193159C700AEC5F0 /* QuartzCore.framework */; };
+		EA412E1019315A9600AEC5F0 /* MOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E0F19315A9600AEC5F0 /* MOViewController.m */; };
+		EA412E1519315B5E00AEC5F0 /* PHMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E1219315B5E00AEC5F0 /* PHMenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA2A2D52193150090009F460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2A2D24193150090009F460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2A2D2B193150090009F460;
+			remoteInfo = ClockiOS7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64C457DEED70484DADB60AB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC1435E5FE2447B823515B2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EA2A2D2C193150090009F460 /* ClockiOS7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockiOS7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2A2D2F193150090009F460 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA2A2D31193150090009F460 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA2A2D33193150090009F460 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA2A2D37193150090009F460 /* ClockiOS7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClockiOS7-Info.plist"; sourceTree = "<group>"; };
+		EA2A2D39193150090009F460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA2A2D3B193150090009F460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA2A2D3D193150090009F460 /* ClockiOS7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClockiOS7-Prefix.pch"; sourceTree = "<group>"; };
+		EA2A2D3E193150090009F460 /* ClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockAppDelegate.h; sourceTree = "<group>"; };
+		EA2A2D3F193150090009F460 /* ClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockAppDelegate.m; sourceTree = "<group>"; };
+		EA2A2D42193150090009F460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA2A2D44193150090009F460 /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		EA2A2D45193150090009F460 /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		EA2A2D47193150090009F460 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA2A2D4D193150090009F460 /* ClockiOS7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockiOS7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2A2D4E193150090009F460 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA2A2D56193150090009F460 /* ClockiOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClockiOS7Tests-Info.plist"; sourceTree = "<group>"; };
+		EA2A2D58193150090009F460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA2A2D5A193150090009F460 /* ClockiOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockiOS7Tests.m; sourceTree = "<group>"; };
+		EA412DE2193155EF00AEC5F0 /* MOBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOBackgroundColor.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOBackgroundColor.h"; sourceTree = "<group>"; };
+		EA412DE3193155EF00AEC5F0 /* MOBackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOBackgroundColor.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOBackgroundColor.m"; sourceTree = "<group>"; };
+		EA412DE4193155EF00AEC5F0 /* MONavigationSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MONavigationSettingViewController.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MONavigationSettingViewController.h"; sourceTree = "<group>"; };
+		EA412DE5193155EF00AEC5F0 /* MONavigationSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MONavigationSettingViewController.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MONavigationSettingViewController.m"; sourceTree = "<group>"; };
+		EA412DE6193155EF00AEC5F0 /* MOSettingColorThemeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSettingColorThemeCell.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingColorThemeCell.h"; sourceTree = "<group>"; };
+		EA412DE7193155EF00AEC5F0 /* MOSettingColorThemeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSettingColorThemeCell.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingColorThemeCell.m"; sourceTree = "<group>"; };
+		EA412DE8193155EF00AEC5F0 /* MOSettingColorThemeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MOSettingColorThemeCell.xib; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingColorThemeCell.xib"; sourceTree = "<group>"; };
+		EA412DE9193155EF00AEC5F0 /* MOSettingMakerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSettingMakerTableViewCell.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingMakerTableViewCell.h"; sourceTree = "<group>"; };
+		EA412DEA193155EF00AEC5F0 /* MOSettingMakerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSettingMakerTableViewCell.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingMakerTableViewCell.m"; sourceTree = "<group>"; };
+		EA412DEB193155EF00AEC5F0 /* MOSettingMakerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MOSettingMakerTableViewCell.xib; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingMakerTableViewCell.xib"; sourceTree = "<group>"; };
+		EA412DEC193155EF00AEC5F0 /* MOSettingVersionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSettingVersionTableViewCell.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingVersionTableViewCell.h"; sourceTree = "<group>"; };
+		EA412DED193155EF00AEC5F0 /* MOSettingVersionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSettingVersionTableViewCell.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingVersionTableViewCell.m"; sourceTree = "<group>"; };
+		EA412DEE193155EF00AEC5F0 /* MOSettingVersionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MOSettingVersionTableViewCell.xib; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingVersionTableViewCell.xib"; sourceTree = "<group>"; };
+		EA412DEF193155EF00AEC5F0 /* MOSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSettingViewController.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingViewController.h"; sourceTree = "<group>"; };
+		EA412DF0193155EF00AEC5F0 /* MOSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSettingViewController.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingViewController.m"; sourceTree = "<group>"; };
+		EA412E021931571200AEC5F0 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		EA412E031931571200AEC5F0 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		EA412E051931571200AEC5F0 /* PHAirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHAirViewController.h; sourceTree = "<group>"; };
+		EA412E061931571200AEC5F0 /* PHAirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAirViewController.m; sourceTree = "<group>"; };
+		EA412E071931571200AEC5F0 /* PHSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHSessionView.h; sourceTree = "<group>"; };
+		EA412E081931571200AEC5F0 /* PHSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSessionView.m; sourceTree = "<group>"; };
+		EA412E0C193159C700AEC5F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA412E0E19315A9600AEC5F0 /* MOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewController.h; sourceTree = "<group>"; };
+		EA412E0F19315A9600AEC5F0 /* MOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewController.m; sourceTree = "<group>"; };
+		EA412E1119315B5E00AEC5F0 /* PHMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMenuViewController.h; sourceTree = "<group>"; };
+		EA412E1219315B5E00AEC5F0 /* PHMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2A2D29193150090009F460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA412E0D193159C700AEC5F0 /* QuartzCore.framework in Frameworks */,
+				EA2A2D32193150090009F460 /* CoreGraphics.framework in Frameworks */,
+				EA2A2D34193150090009F460 /* UIKit.framework in Frameworks */,
+				EA2A2D30193150090009F460 /* Foundation.framework in Frameworks */,
+				A33D22EF7EA6498FB7CE782E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2A2D4A193150090009F460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2A2D4F193150090009F460 /* XCTest.framework in Frameworks */,
+				EA2A2D51193150090009F460 /* UIKit.framework in Frameworks */,
+				EA2A2D50193150090009F460 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2A2D23193150090009F460 = {
+			isa = PBXGroup;
+			children = (
+				EA2A2D35193150090009F460 /* ClockiOS7 */,
+				EA2A2D54193150090009F460 /* ClockiOS7Tests */,
+				EA2A2D2E193150090009F460 /* Frameworks */,
+				EA2A2D2D193150090009F460 /* Products */,
+				8DC1435E5FE2447B823515B2 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2A2D2D193150090009F460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2A2D2C193150090009F460 /* ClockiOS7.app */,
+				EA2A2D4D193150090009F460 /* ClockiOS7Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2A2D2E193150090009F460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA412E0C193159C700AEC5F0 /* QuartzCore.framework */,
+				EA2A2D2F193150090009F460 /* Foundation.framework */,
+				EA2A2D31193150090009F460 /* CoreGraphics.framework */,
+				EA2A2D33193150090009F460 /* UIKit.framework */,
+				EA2A2D4E193150090009F460 /* XCTest.framework */,
+				64C457DEED70484DADB60AB4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA2A2D35193150090009F460 /* ClockiOS7 */ = {
+			isa = PBXGroup;
+			children = (
+				EA2A2D671931517C0009F460 /* Clock */,
+				EA2A2D661931505D0009F460 /* Menu */,
+				EA2A2D651931504E0009F460 /* Settings */,
+				EA2A2D3E193150090009F460 /* ClockAppDelegate.h */,
+				EA2A2D3F193150090009F460 /* ClockAppDelegate.m */,
+				EA2A2D41193150090009F460 /* Main.storyboard */,
+				EA2A2D44193150090009F460 /* ClockViewController.h */,
+				EA2A2D45193150090009F460 /* ClockViewController.m */,
+				EA2A2D47193150090009F460 /* Images.xcassets */,
+				EA2A2D36193150090009F460 /* Supporting Files */,
+			);
+			path = ClockiOS7;
+			sourceTree = "<group>";
+		};
+		EA2A2D36193150090009F460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2A2D37193150090009F460 /* ClockiOS7-Info.plist */,
+				EA2A2D38193150090009F460 /* InfoPlist.strings */,
+				EA2A2D3B193150090009F460 /* main.m */,
+				EA2A2D3D193150090009F460 /* ClockiOS7-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2A2D54193150090009F460 /* ClockiOS7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA2A2D5A193150090009F460 /* ClockiOS7Tests.m */,
+				EA2A2D55193150090009F460 /* Supporting Files */,
+			);
+			path = ClockiOS7Tests;
+			sourceTree = "<group>";
+		};
+		EA2A2D55193150090009F460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2A2D56193150090009F460 /* ClockiOS7Tests-Info.plist */,
+				EA2A2D57193150090009F460 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2A2D651931504E0009F460 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		EA2A2D661931505D0009F460 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EA412E1119315B5E00AEC5F0 /* PHMenuViewController.h */,
+				EA412E1219315B5E00AEC5F0 /* PHMenuViewController.m */,
+				EA412E001931571200AEC5F0 /* Library */,
+				EA412E041931571200AEC5F0 /* Source */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		EA2A2D671931517C0009F460 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				EA412E0E19315A9600AEC5F0 /* MOViewController.h */,
+				EA412E0F19315A9600AEC5F0 /* MOViewController.m */,
+				EA412DFD1931561200AEC5F0 /* Settings */,
+				EA412DFF1931567D00AEC5F0 /* Color */,
+			);
+			name = Clock;
+			sourceTree = "<group>";
+		};
+		EA412DFD1931561200AEC5F0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EA412DFE1931562E00AEC5F0 /* SettingsCell */,
+				EA412DE4193155EF00AEC5F0 /* MONavigationSettingViewController.h */,
+				EA412DE5193155EF00AEC5F0 /* MONavigationSettingViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		EA412DFE1931562E00AEC5F0 /* SettingsCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA412DEF193155EF00AEC5F0 /* MOSettingViewController.h */,
+				EA412DF0193155EF00AEC5F0 /* MOSettingViewController.m */,
+				EA412DE6193155EF00AEC5F0 /* MOSettingColorThemeCell.h */,
+				EA412DE7193155EF00AEC5F0 /* MOSettingColorThemeCell.m */,
+				EA412DE8193155EF00AEC5F0 /* MOSettingColorThemeCell.xib */,
+				EA412DE9193155EF00AEC5F0 /* MOSettingMakerTableViewCell.h */,
+				EA412DEA193155EF00AEC5F0 /* MOSettingMakerTableViewCell.m */,
+				EA412DEB193155EF00AEC5F0 /* MOSettingMakerTableViewCell.xib */,
+				EA412DEC193155EF00AEC5F0 /* MOSettingVersionTableViewCell.h */,
+				EA412DED193155EF00AEC5F0 /* MOSettingVersionTableViewCell.m */,
+				EA412DEE193155EF00AEC5F0 /* MOSettingVersionTableViewCell.xib */,
+			);
+			name = SettingsCell;
+			sourceTree = "<group>";
+		};
+		EA412DFF1931567D00AEC5F0 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				EA412DE2193155EF00AEC5F0 /* MOBackgroundColor.h */,
+				EA412DE3193155EF00AEC5F0 /* MOBackgroundColor.m */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		EA412E001931571200AEC5F0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EA412E011931571200AEC5F0 /* KNAdditions */,
+			);
+			name = Library;
+			path = "../../../../../Downloads/PHAirViewController-master/Library";
+			sourceTree = "<group>";
+		};
+		EA412E011931571200AEC5F0 /* KNAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				EA412E021931571200AEC5F0 /* UIViewAdditions.h */,
+				EA412E031931571200AEC5F0 /* UIViewAdditions.m */,
+			);
+			path = KNAdditions;
+			sourceTree = "<group>";
+		};
+		EA412E041931571200AEC5F0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EA412E051931571200AEC5F0 /* PHAirViewController.h */,
+				EA412E061931571200AEC5F0 /* PHAirViewController.m */,
+				EA412E071931571200AEC5F0 /* PHSessionView.h */,
+				EA412E081931571200AEC5F0 /* PHSessionView.m */,
+			);
+			name = Source;
+			path = "../../../../../Downloads/PHAirViewController-master/Source";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2A2D2B193150090009F460 /* ClockiOS7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2A2D5E193150090009F460 /* Build configuration list for PBXNativeTarget "ClockiOS7" */;
+			buildPhases = (
+				C5AFA1B9297E49C09454D1D0 /* Check Pods Manifest.lock */,
+				EA2A2D28193150090009F460 /* Sources */,
+				EA2A2D29193150090009F460 /* Frameworks */,
+				EA2A2D2A193150090009F460 /* Resources */,
+				CA785651899D48ACA075DECB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockiOS7;
+			productName = ClockiOS7;
+			productReference = EA2A2D2C193150090009F460 /* ClockiOS7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA2A2D4C193150090009F460 /* ClockiOS7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2A2D61193150090009F460 /* Build configuration list for PBXNativeTarget "ClockiOS7Tests" */;
+			buildPhases = (
+				EA2A2D49193150090009F460 /* Sources */,
+				EA2A2D4A193150090009F460 /* Frameworks */,
+				EA2A2D4B193150090009F460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA2A2D53193150090009F460 /* PBXTargetDependency */,
+			);
+			name = ClockiOS7Tests;
+			productName = ClockiOS7Tests;
+			productReference = EA2A2D4D193150090009F460 /* ClockiOS7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2A2D24193150090009F460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Clock;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tony LAUNAY";
+				TargetAttributes = {
+					EA2A2D4C193150090009F460 = {
+						TestTargetID = EA2A2D2B193150090009F460;
+					};
+				};
+			};
+			buildConfigurationList = EA2A2D27193150090009F460 /* Build configuration list for PBXProject "ClockiOS7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA2A2D23193150090009F460;
+			productRefGroup = EA2A2D2D193150090009F460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2A2D2B193150090009F460 /* ClockiOS7 */,
+				EA2A2D4C193150090009F460 /* ClockiOS7Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2A2D2A193150090009F460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA412DF6193155EF00AEC5F0 /* MOSettingColorThemeCell.xib in Resources */,
+				EA412DFA193155EF00AEC5F0 /* MOSettingVersionTableViewCell.xib in Resources */,
+				EA2A2D48193150090009F460 /* Images.xcassets in Resources */,
+				EA412DF8193155EF00AEC5F0 /* MOSettingMakerTableViewCell.xib in Resources */,
+				EA2A2D3A193150090009F460 /* InfoPlist.strings in Resources */,
+				EA2A2D43193150090009F460 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2A2D4B193150090009F460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2A2D59193150090009F460 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5AFA1B9297E49C09454D1D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA785651899D48ACA075DECB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2A2D28193150090009F460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2A2D46193150090009F460 /* ClockViewController.m in Sources */,
+				EA412DF3193155EF00AEC5F0 /* MOBackgroundColor.m in Sources */,
+				EA412E091931571200AEC5F0 /* UIViewAdditions.m in Sources */,
+				EA412DFB193155EF00AEC5F0 /* MOSettingViewController.m in Sources */,
+				EA412DF7193155EF00AEC5F0 /* MOSettingMakerTableViewCell.m in Sources */,
+				EA412DF5193155EF00AEC5F0 /* MOSettingColorThemeCell.m in Sources */,
+				EA412DF4193155EF00AEC5F0 /* MONavigationSettingViewController.m in Sources */,
+				EA412E1519315B5E00AEC5F0 /* PHMenuViewController.m in Sources */,
+				EA412DF9193155EF00AEC5F0 /* MOSettingVersionTableViewCell.m in Sources */,
+				EA2A2D3C193150090009F460 /* main.m in Sources */,
+				EA2A2D40193150090009F460 /* ClockAppDelegate.m in Sources */,
+				EA412E1019315A9600AEC5F0 /* MOViewController.m in Sources */,
+				EA412E0B1931571200AEC5F0 /* PHSessionView.m in Sources */,
+				EA412E0A1931571200AEC5F0 /* PHAirViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2A2D49193150090009F460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2A2D5B193150090009F460 /* ClockiOS7Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA2A2D53193150090009F460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2A2D2B193150090009F460 /* ClockiOS7 */;
+			targetProxy = EA2A2D52193150090009F460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA2A2D38193150090009F460 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2A2D39193150090009F460 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA2A2D41193150090009F460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2A2D42193150090009F460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA2A2D57193150090009F460 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2A2D58193150090009F460 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2A2D5C193150090009F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA2A2D5D193150090009F460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2A2D5F193150090009F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC1435E5FE2447B823515B2 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClockiOS7/ClockiOS7-Prefix.pch";
+				INFOPLIST_FILE = "ClockiOS7/ClockiOS7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA2A2D60193150090009F460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC1435E5FE2447B823515B2 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClockiOS7/ClockiOS7-Prefix.pch";
+				INFOPLIST_FILE = "ClockiOS7/ClockiOS7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA2A2D62193150090009F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClockiOS7.app/ClockiOS7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClockiOS7/ClockiOS7-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClockiOS7Tests/ClockiOS7Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA2A2D63193150090009F460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClockiOS7.app/ClockiOS7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClockiOS7/ClockiOS7-Prefix.pch";
+				INFOPLIST_FILE = "ClockiOS7Tests/ClockiOS7Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2A2D27193150090009F460 /* Build configuration list for PBXProject "ClockiOS7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2A2D5C193150090009F460 /* Debug */,
+				EA2A2D5D193150090009F460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2A2D5E193150090009F460 /* Build configuration list for PBXNativeTarget "ClockiOS7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2A2D5F193150090009F460 /* Debug */,
+				EA2A2D60193150090009F460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2A2D61193150090009F460 /* Build configuration list for PBXNativeTarget "ClockiOS7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2A2D62193150090009F460 /* Debug */,
+				EA2A2D63193150090009F460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2A2D24193150090009F460 /* Project object */;
+}

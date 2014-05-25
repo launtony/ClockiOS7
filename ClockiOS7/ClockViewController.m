@@ -7,6 +7,9 @@
 //
 
 #import "ClockViewController.h"
+#import "MOSettingViewController.h"
+#import "MOBackgroundColor.h"
+
 
 @interface ClockViewController ()
 

@@ -15,12 +15,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor yellowColor];
+    
+    UIImage *image=[UIImage imageNamed:@"background"];
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
     
     // Init menu data
     NSArray * session1 = [NSArray arrayWithObjects:@"phair_root",@"segue1", nil];
-    NSArray * session2 = [NSArray arrayWithObjects:@"segue2",@"segue3", nil];
-    data = [NSArray arrayWithObjects:session1, session2, nil];
+    //NSArray * session2 = [NSArray arrayWithObjects:@"segue2",@"segue3", nil];
+    data = [NSArray arrayWithObjects:session1, nil];
 }
 
 #pragma mark - PHAirMenuDelegate
@@ -37,12 +40,30 @@
 
 - (NSString*)titleForRowAtIndexPath:(NSIndexPath*)indexPath
 {
-    return [NSString stringWithFormat:@"Row %ld in %ld", (long)indexPath.row, (long)indexPath.section];
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            
+            NSString *row = [NSString stringWithFormat:@"Clock"];
+            return row;
+        }
+        else {
+            NSString *row = [NSString stringWithFormat:@"Settings"];
+            return row;
+        }
+    }
+    else {
+        return [NSString stringWithFormat:@"Not Found"];
+    }    
 }
 
 - (NSString*)titleForHeaderAtSession:(NSInteger)session
 {
-    return [NSString stringWithFormat:@"Session %ld", (long)session];
+    if (session == 0) {
+        return [NSString stringWithFormat:@"ClockiOS7"];
+    }
+    else {
+        return [NSString stringWithFormat:@"Not Found"];
+    }
 }
 
 - (NSString*)segueForRowAtIndexPath:(NSIndexPath*)indexPath

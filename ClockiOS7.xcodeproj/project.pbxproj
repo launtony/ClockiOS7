@@ -16,14 +16,12 @@
 		EA2A2D40193150090009F460 /* ClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A2D3F193150090009F460 /* ClockAppDelegate.m */; };
 		EA2A2D43193150090009F460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2A2D41193150090009F460 /* Main.storyboard */; };
 		EA2A2D46193150090009F460 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A2D45193150090009F460 /* ClockViewController.m */; };
-		EA2A2D48193150090009F460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2A2D47193150090009F460 /* Images.xcassets */; };
 		EA2A2D4F193150090009F460 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D4E193150090009F460 /* XCTest.framework */; };
 		EA2A2D50193150090009F460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D2F193150090009F460 /* Foundation.framework */; };
 		EA2A2D51193150090009F460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D33193150090009F460 /* UIKit.framework */; };
 		EA2A2D59193150090009F460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA2A2D57193150090009F460 /* InfoPlist.strings */; };
 		EA2A2D5B193150090009F460 /* ClockiOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A2D5A193150090009F460 /* ClockiOS7Tests.m */; };
 		EA412DF3193155EF00AEC5F0 /* MOBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DE3193155EF00AEC5F0 /* MOBackgroundColor.m */; };
-		EA412DF4193155EF00AEC5F0 /* MONavigationSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DE5193155EF00AEC5F0 /* MONavigationSettingViewController.m */; };
 		EA412DF5193155EF00AEC5F0 /* MOSettingColorThemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DE7193155EF00AEC5F0 /* MOSettingColorThemeCell.m */; };
 		EA412DF6193155EF00AEC5F0 /* MOSettingColorThemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA412DE8193155EF00AEC5F0 /* MOSettingColorThemeCell.xib */; };
 		EA412DF7193155EF00AEC5F0 /* MOSettingMakerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DEA193155EF00AEC5F0 /* MOSettingMakerTableViewCell.m */; };
@@ -35,8 +33,9 @@
 		EA412E0A1931571200AEC5F0 /* PHAirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E061931571200AEC5F0 /* PHAirViewController.m */; };
 		EA412E0B1931571200AEC5F0 /* PHSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E081931571200AEC5F0 /* PHSessionView.m */; };
 		EA412E0D193159C700AEC5F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA412E0C193159C700AEC5F0 /* QuartzCore.framework */; };
-		EA412E1019315A9600AEC5F0 /* MOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E0F19315A9600AEC5F0 /* MOViewController.m */; };
 		EA412E1519315B5E00AEC5F0 /* PHMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412E1219315B5E00AEC5F0 /* PHMenuViewController.m */; };
+		EAAAD7E11931EC7000132EE2 /* MOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAAD7E01931EC7000132EE2 /* MOViewController.m */; };
+		EAAAD7E31931ED4B00132EE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAAD7E21931ED4B00132EE2 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 		EA2A2D42193150090009F460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA2A2D44193150090009F460 /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
 		EA2A2D45193150090009F460 /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
-		EA2A2D47193150090009F460 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA2A2D4D193150090009F460 /* ClockiOS7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockiOS7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2A2D4E193150090009F460 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EA2A2D56193150090009F460 /* ClockiOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClockiOS7Tests-Info.plist"; sourceTree = "<group>"; };
@@ -73,8 +71,6 @@
 		EA2A2D5A193150090009F460 /* ClockiOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockiOS7Tests.m; sourceTree = "<group>"; };
 		EA412DE2193155EF00AEC5F0 /* MOBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOBackgroundColor.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOBackgroundColor.h"; sourceTree = "<group>"; };
 		EA412DE3193155EF00AEC5F0 /* MOBackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOBackgroundColor.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOBackgroundColor.m"; sourceTree = "<group>"; };
-		EA412DE4193155EF00AEC5F0 /* MONavigationSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MONavigationSettingViewController.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MONavigationSettingViewController.h"; sourceTree = "<group>"; };
-		EA412DE5193155EF00AEC5F0 /* MONavigationSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MONavigationSettingViewController.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MONavigationSettingViewController.m"; sourceTree = "<group>"; };
 		EA412DE6193155EF00AEC5F0 /* MOSettingColorThemeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSettingColorThemeCell.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingColorThemeCell.h"; sourceTree = "<group>"; };
 		EA412DE7193155EF00AEC5F0 /* MOSettingColorThemeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSettingColorThemeCell.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingColorThemeCell.m"; sourceTree = "<group>"; };
 		EA412DE8193155EF00AEC5F0 /* MOSettingColorThemeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MOSettingColorThemeCell.xib; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingColorThemeCell.xib"; sourceTree = "<group>"; };
@@ -94,9 +90,10 @@
 		EA412E081931571200AEC5F0 /* PHSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSessionView.m; sourceTree = "<group>"; };
 		EA412E0C193159C700AEC5F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EA412E0E19315A9600AEC5F0 /* MOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewController.h; sourceTree = "<group>"; };
-		EA412E0F19315A9600AEC5F0 /* MOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewController.m; sourceTree = "<group>"; };
 		EA412E1119315B5E00AEC5F0 /* PHMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMenuViewController.h; sourceTree = "<group>"; };
 		EA412E1219315B5E00AEC5F0 /* PHMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMenuViewController.m; sourceTree = "<group>"; };
+		EAAAD7E01931EC7000132EE2 /* MOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewController.m; sourceTree = "<group>"; };
+		EAAAD7E21931ED4B00132EE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +166,7 @@
 				EA2A2D41193150090009F460 /* Main.storyboard */,
 				EA2A2D44193150090009F460 /* ClockViewController.h */,
 				EA2A2D45193150090009F460 /* ClockViewController.m */,
-				EA2A2D47193150090009F460 /* Images.xcassets */,
+				EAAAD7E21931ED4B00132EE2 /* Images.xcassets */,
 				EA2A2D36193150090009F460 /* Supporting Files */,
 			);
 			path = ClockiOS7;
@@ -225,8 +222,10 @@
 		EA2A2D671931517C0009F460 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				EAAAD7E01931EC7000132EE2 /* MOViewController.m */,
 				EA412E0E19315A9600AEC5F0 /* MOViewController.h */,
-				EA412E0F19315A9600AEC5F0 /* MOViewController.m */,
+				EA412DEF193155EF00AEC5F0 /* MOSettingViewController.h */,
+				EA412DF0193155EF00AEC5F0 /* MOSettingViewController.m */,
 				EA412DFD1931561200AEC5F0 /* Settings */,
 				EA412DFF1931567D00AEC5F0 /* Color */,
 			);
@@ -237,8 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				EA412DFE1931562E00AEC5F0 /* SettingsCell */,
-				EA412DE4193155EF00AEC5F0 /* MONavigationSettingViewController.h */,
-				EA412DE5193155EF00AEC5F0 /* MONavigationSettingViewController.m */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -246,8 +243,6 @@
 		EA412DFE1931562E00AEC5F0 /* SettingsCell */ = {
 			isa = PBXGroup;
 			children = (
-				EA412DEF193155EF00AEC5F0 /* MOSettingViewController.h */,
-				EA412DF0193155EF00AEC5F0 /* MOSettingViewController.m */,
 				EA412DE6193155EF00AEC5F0 /* MOSettingColorThemeCell.h */,
 				EA412DE7193155EF00AEC5F0 /* MOSettingColorThemeCell.m */,
 				EA412DE8193155EF00AEC5F0 /* MOSettingColorThemeCell.xib */,
@@ -381,8 +376,8 @@
 			files = (
 				EA412DF6193155EF00AEC5F0 /* MOSettingColorThemeCell.xib in Resources */,
 				EA412DFA193155EF00AEC5F0 /* MOSettingVersionTableViewCell.xib in Resources */,
-				EA2A2D48193150090009F460 /* Images.xcassets in Resources */,
 				EA412DF8193155EF00AEC5F0 /* MOSettingMakerTableViewCell.xib in Resources */,
+				EAAAD7E31931ED4B00132EE2 /* Images.xcassets in Resources */,
 				EA2A2D3A193150090009F460 /* InfoPlist.strings in Resources */,
 				EA2A2D43193150090009F460 /* Main.storyboard in Resources */,
 			);
@@ -442,12 +437,11 @@
 				EA412DFB193155EF00AEC5F0 /* MOSettingViewController.m in Sources */,
 				EA412DF7193155EF00AEC5F0 /* MOSettingMakerTableViewCell.m in Sources */,
 				EA412DF5193155EF00AEC5F0 /* MOSettingColorThemeCell.m in Sources */,
-				EA412DF4193155EF00AEC5F0 /* MONavigationSettingViewController.m in Sources */,
 				EA412E1519315B5E00AEC5F0 /* PHMenuViewController.m in Sources */,
 				EA412DF9193155EF00AEC5F0 /* MOSettingVersionTableViewCell.m in Sources */,
 				EA2A2D3C193150090009F460 /* main.m in Sources */,
 				EA2A2D40193150090009F460 /* ClockAppDelegate.m in Sources */,
-				EA412E1019315A9600AEC5F0 /* MOViewController.m in Sources */,
+				EAAAD7E11931EC7000132EE2 /* MOViewController.m in Sources */,
 				EA412E0B1931571200AEC5F0 /* PHSessionView.m in Sources */,
 				EA412E0A1931571200AEC5F0 /* PHAirViewController.m in Sources */,
 			);

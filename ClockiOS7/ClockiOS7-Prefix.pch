@@ -22,6 +22,8 @@
 #define MODigitViewName @"DigitView"
 #define MOSettingViewName @"SettingViewName"
 
+#define OSettingColorThemeCell @"MOSettingColorThemeCell"
+
 #define KeepAliveTime 300.0f
 
 #define IS_IPHONE ( [ [ [ UIDevice currentDevice ] model ] hasPrefix: @"iPhone" ] )

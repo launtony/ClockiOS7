@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "ClockViewController.h"
+#import "MOSettingViewController.h"
 
 
-@interface MOViewController : ClockViewController
+@interface MOViewController: ClockViewController<MOSettingViewControllerDelegate>
 
 - (void)changeBackground;
 

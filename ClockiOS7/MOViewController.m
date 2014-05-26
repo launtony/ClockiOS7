@@ -19,6 +19,8 @@
 
 @property (nonatomic, strong) IBOutletCollection(UIView) NSArray *digitViews;
 
+
+
 @end
 
 @implementation MOViewController
@@ -27,7 +29,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
     [self setup];
     [self onTickTimer];
     [self tick];
@@ -38,7 +39,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -175,32 +176,45 @@
  *  @param segue  segue
  *  @param sender sender
  */
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    MOSettingViewController *destViewController = [[[segue destinationViewController]viewControllers]objectAtIndex:0];
-    destViewController.delegate = self;
-}
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+//{
+//    MOSettingViewController *destViewController = [[[segue destinationViewController]viewControllers]objectAtIndex:0];
+//    destViewController.delegate = self;
+    
+//    if ([segue.identifier isEqualToString:@"segue1"
+//    {
+//        UINavigationController *navigationController = segue.destinationViewController;
+//        MOSettingViewController *destViewController = [[navigationController viewControllers] objectAtIndex:0];
+//        destViewController.delegate = self;
+//    }
+//}
+
 
 /**
  *  display View Gesture
  *
  *  @param sender PanGesture Object
  */
+
+
 - (IBAction)displayGestureForPanGestureRecognizer:(UIPanGestureRecognizer *)sender
 {
     CGPoint translation = [sender translationInView:self.view];
     
-    #define SWIPE_UP_THRESHOLD -1000.0f
-    #define SWIPE_DOWN_THRESHOLD 1000.0f
-    #define SWIPE_LEFT_THRESHOLD -1000.0f
-    #define SWIPE_RIGHT_THRESHOLD 1000.0f
+#define SWIPE_UP_THRESHOLD -1000.0f
+#define SWIPE_DOWN_THRESHOLD 1000.0f
+#define SWIPE_LEFT_THRESHOLD -1000.0f
+#define SWIPE_RIGHT_THRESHOLD 1000.0f
     
     // Get the translation in the view
     [sender setTranslation:CGPointZero inView:self.view];
-
     
-    // But also, detect the swipe gesture
-    if (sender.state == UIGestureRecognizerStateEnded)
+    
+    if (sender.state == UIGestureRecognizerStateBegan) {
+        NSLog(@"------- BEGAN --------");
+        lastTranslation = translation;
+    }
+    if (sender.state == UIGestureRecognizerStateChanged)
     {
         CGPoint vel = [sender velocityInView:self.view];
         
@@ -219,32 +233,35 @@
         {
             // TODO: Detected a swipe up
             NSLog(@"UP");
+            [self changeViewAlpha:translation];
         }
         else if (vel.y > SWIPE_DOWN_THRESHOLD)
         {
             // TODO: Detected a swipe down
             NSLog(@"DOWN");
+            [self changeViewAlpha:translation];
         }
     }
-
-    switch (sender.state) {
-        case UIGestureRecognizerStateBegan:
-            lastTranslation = translation;
-            break;
-        case UIGestureRecognizerStateCancelled:
-            break;
-        case UIGestureRecognizerStateChanged:
-            [self changeViewAlpha:translation];
-            break;
-        case UIGestureRecognizerStateEnded:
-            break;
-        case UIGestureRecognizerStateFailed:
-            break;
-        case UIGestureRecognizerStatePossible:
-            break;
-        default:
-            break;
-    }
+//    switch (sender.state) {
+//        case UIGestureRecognizerStateBegan:
+//            NSLog(@"------- BEGAN --------");
+//            lastTranslation = translation;
+//            break;
+//        case UIGestureRecognizerStateCancelled:
+//            break;
+//        case UIGestureRecognizerStateChanged:
+//            NSLog(@"------- SWIPE --------");
+//            [self changeViewAlpha:translation];
+//            break;
+//        case UIGestureRecognizerStateEnded:
+//            break;
+//        case UIGestureRecognizerStateFailed:
+//            break;
+//        case UIGestureRecognizerStatePossible:
+//            break;
+//        default:
+//            break;
+//    }
 }
 
 @end

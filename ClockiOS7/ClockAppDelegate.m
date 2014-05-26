@@ -12,8 +12,6 @@
 
 @property (nonatomic) CGFloat brightness;
 
-
-
 @end
 
 @implementation ClockAppDelegate
@@ -25,7 +23,6 @@
     // disable the idle timer
     [UIApplication sharedApplication].idleTimerDisabled = YES;
     
-    //[self initAppReview];
     
     return YES;
 }

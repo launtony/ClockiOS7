@@ -15,9 +15,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="Xq7-Wq-rtF"/>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <segue destination="gdJ-9V-3NN" kind="custom" identifier="phair_root" customClass="PHAirViewControllerSegue" id="mfM-JU-ieB"/>
                         <segue destination="2Zh-JJ-jHc" kind="custom" identifier="segue1" customClass="PHAirViewControllerSegue" id="y4O-eZ-XHP"/>
+                        <segue destination="xpS-fm-ZcO" kind="custom" identifier="segue2" customClass="PHAirViewControllerSegue" id="W8r-Qi-b9L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nyo-5L-PPg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -139,23 +141,41 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ClockiOS7" id="CT9-3a-aQC">
-                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="save" id="0dj-lL-eEh">
-                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            <connections>
-                                <action selector="dismissViewAction:" destination="TfI-NG-Cyq" id="53A-2P-ovx"/>
-                                <segue destination="uJ0-Xy-qxP" kind="modal" id="BeS-Sg-pMg"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="ClockiOS7" id="CT9-3a-aQC"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <connections>
-                        <outlet property="doneItem" destination="0dj-lL-eEh" id="uDA-60-1el"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8J6-mK-2h4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="876" y="927"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="Wcr-fO-5jh">
+            <objects>
+                <viewController modalTransitionStyle="flipHorizontal" id="BlD-dn-NvO" customClass="AboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Trr-Kp-anb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view opaque="NO" contentMode="scaleToFill" id="qNo-Z6-RMZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="0.89927176562552502" blue="0.71517358103849071" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" image="YES"/>
+                                </accessibility>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="NVP-Zw-Gwi"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Rf-y1-q9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="1643"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7as-nI-J58">
@@ -173,6 +193,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WW2-03-0Cu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="352" y="933"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SPB-q7-4Eq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="xpS-fm-ZcO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9v9-uI-pWF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="54i-Rp-eYb">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BlD-dn-NvO" kind="relationship" relationship="rootViewController" id="B9O-d0-U0a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cc7-Bd-JQX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="352" y="1643"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

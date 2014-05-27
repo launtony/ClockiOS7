@@ -21,6 +21,7 @@
 		EA2A2D51193150090009F460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A2D33193150090009F460 /* UIKit.framework */; };
 		EA2A2D59193150090009F460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA2A2D57193150090009F460 /* InfoPlist.strings */; };
 		EA2A2D5B193150090009F460 /* ClockiOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A2D5A193150090009F460 /* ClockiOS7Tests.m */; };
+		EA3B45EC19349EE80084BE43 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B45EB19349EE80084BE43 /* AboutViewController.m */; };
 		EA412DF3193155EF00AEC5F0 /* MOBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DE3193155EF00AEC5F0 /* MOBackgroundColor.m */; };
 		EA412DF5193155EF00AEC5F0 /* MOSettingColorThemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA412DE7193155EF00AEC5F0 /* MOSettingColorThemeCell.m */; };
 		EA412DF6193155EF00AEC5F0 /* MOSettingColorThemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA412DE8193155EF00AEC5F0 /* MOSettingColorThemeCell.xib */; };
@@ -69,6 +70,8 @@
 		EA2A2D56193150090009F460 /* ClockiOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClockiOS7Tests-Info.plist"; sourceTree = "<group>"; };
 		EA2A2D58193150090009F460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA2A2D5A193150090009F460 /* ClockiOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockiOS7Tests.m; sourceTree = "<group>"; };
+		EA3B45EA19349EE80084BE43 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		EA3B45EB19349EE80084BE43 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		EA412DE2193155EF00AEC5F0 /* MOBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOBackgroundColor.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOBackgroundColor.h"; sourceTree = "<group>"; };
 		EA412DE3193155EF00AEC5F0 /* MOBackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOBackgroundColor.m; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOBackgroundColor.m"; sourceTree = "<group>"; };
 		EA412DE6193155EF00AEC5F0 /* MOSettingColorThemeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSettingColorThemeCell.h; path = "../../../../../Downloads/DigitClock-master/DigitClock/MOSettingColorThemeCell.h"; sourceTree = "<group>"; };
@@ -160,7 +163,7 @@
 			children = (
 				EA2A2D671931517C0009F460 /* Clock */,
 				EA2A2D661931505D0009F460 /* Menu */,
-				EA2A2D651931504E0009F460 /* Settings */,
+				EA2A2D651931504E0009F460 /* About */,
 				EA2A2D3E193150090009F460 /* ClockAppDelegate.h */,
 				EA2A2D3F193150090009F460 /* ClockAppDelegate.m */,
 				EA2A2D41193150090009F460 /* Main.storyboard */,
@@ -201,11 +204,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EA2A2D651931504E0009F460 /* Settings */ = {
+		EA2A2D651931504E0009F460 /* About */ = {
 			isa = PBXGroup;
 			children = (
+				EA3B45EA19349EE80084BE43 /* AboutViewController.h */,
+				EA3B45EB19349EE80084BE43 /* AboutViewController.m */,
 			);
-			name = Settings;
+			name = About;
 			sourceTree = "<group>";
 		};
 		EA2A2D661931505D0009F460 /* Menu */ = {
@@ -441,6 +446,7 @@
 				EA412DF9193155EF00AEC5F0 /* MOSettingVersionTableViewCell.m in Sources */,
 				EA2A2D3C193150090009F460 /* main.m in Sources */,
 				EA2A2D40193150090009F460 /* ClockAppDelegate.m in Sources */,
+				EA3B45EC19349EE80084BE43 /* AboutViewController.m in Sources */,
 				EAAAD7E11931EC7000132EE2 /* MOViewController.m in Sources */,
 				EA412E0B1931571200AEC5F0 /* PHSessionView.m in Sources */,
 				EA412E0A1931571200AEC5F0 /* PHAirViewController.m in Sources */,

@@ -17,6 +17,7 @@
     #import <QuartzCore/QuartzCore.h>
     #import "UIViewAdditions.h"
     #import "PHAirViewController.h"
+    #import "MOSettingColorThemeCell.h"
 #endif
 
 #define MODigitViewName @"DigitView"

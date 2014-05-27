@@ -21,7 +21,7 @@
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
     
     // Init menu data
-    NSArray * session1 = [NSArray arrayWithObjects:@"phair_root",@"segue1", nil];
+    NSArray * session1 = [NSArray arrayWithObjects:@"phair_root",@"segue1",@"segue2", nil];
     //NSArray * session2 = [NSArray arrayWithObjects:@"segue2",@"segue3", nil];
     data = [NSArray arrayWithObjects:session1, nil];
 }
@@ -46,8 +46,12 @@
             NSString *row = [NSString stringWithFormat:@"Clock"];
             return row;
         }
-        else {
+        else if (indexPath.row == 1){
             NSString *row = [NSString stringWithFormat:@"Settings"];
+            return row;
+        }
+        else {
+            NSString *row = [NSString stringWithFormat:@"About"];
             return row;
         }
     }
